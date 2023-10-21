@@ -1,0 +1,83 @@
+html {
+  min-height: 8em;
+  min-width: 16em;
+}
+
+body {
+  margin: 1.5em;
+  background: #333;
+  color: #fbfbfb;
+  font-family: 
+    "Yu Gothic",
+    "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 0.5em 0 1em 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000;
+  width: 100%;
+  margin: 0 -500%;
+  padding: 0 500%;
+}
+
+span.option img {
+  margin: 0.2em 0 0.5em 1em;
+  cursor: pointer;
+  width: 22px;
+  float: right;
+}
+
+.input-area {
+  margin: 1em 1em 0.5em 0em;
+  text-align: center;
+}
+
+
+/*
+ Toggle Button
+*/
+.toggle-button-001 {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #dddddd;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.toggle-button-001:has(:checked) {
+    background-color: #4bd865;
+}
+
+.toggle-button-001::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    background-color: #fff;
+    content: '';
+    transition: left .4s;
+}
+
+.toggle-button-001:has(:checked)::after {
+    left: 40px;
+}
+
+.toggle-button-001 input {
+    display: none;
+}

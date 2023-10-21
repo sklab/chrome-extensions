@@ -1,0 +1,6 @@
+{
+  "switch_title": {
+    "message": "クリックしてON/OFFを切り替えます",
+    "description": "Tooltip for toggle button"
+  }
+}

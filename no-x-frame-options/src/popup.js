@@ -4,10 +4,6 @@ window.onload = function() {
     document.getElementById("switch").checked = isEnabled;
   });
 
-  chrome.action.setBadgeBackgroundColor({color: '#33FF66'});
-  chrome.action.setBadgeTextColor({color: '#000000'});
-
-
   document.getElementById("switchLabel").title = chrome.i18n.getMessage('switch_title');
 };
 

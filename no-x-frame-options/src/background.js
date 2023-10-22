@@ -1,3 +1,8 @@
+// Initial setting
+chrome.action.setBadgeBackgroundColor({color: '#33FF66'});
+chrome.action.setBadgeTextColor({color: '#000000'});
+
+
 chrome.runtime.onInstalled.addListener(() => {
   // ローカルストレージに"enabled"キーがなければ、falseを設定する
   chrome.storage.local.get("enabled", (result) => {

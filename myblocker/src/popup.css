@@ -1,0 +1,58 @@
+html {
+  min-height: 10em;
+  min-width: 40em;
+}
+
+body {
+  margin: 2em;
+  background: #333;
+  color: #fbfbfb;
+  font-family: 
+    "Yu Gothic",
+    "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.title {
+  font-size: 2em;
+  margin: 0.5em 0 1em 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000;
+  width: 100%;
+  margin: 0 -500%;
+  padding: 0 500%;
+}
+
+#list_title {
+  font-size: 1.2em;
+  text-align: left;  
+}
+
+.input-area {
+  margin: 1em 0.5em 0.5em 0em;
+  text-align: center;
+}
+
+#url_list {
+  width: 100%;
+  margin: 1em 0em;
+}
+
+#apply {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #251fd7;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: background-color .4s;
+}

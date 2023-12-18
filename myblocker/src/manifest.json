@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "MyBlocker",
+  "version": "1.0",
+  "author": "sklab",
+  "description": "Custom URL blocker.",
+  "icons": {
+    "16": "icon/MyBlocker16.png",
+    "32": "icon/MyBlocker32.png",
+    "48": "icon/MyBlocker48.png",
+    "128": "icon/MyBlocker128.png"
+  },
+  "action": {
+    "default_title": "MyBlocker",
+    "default_popup": "popup.html"
+  },
+  "default_locale": "en",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

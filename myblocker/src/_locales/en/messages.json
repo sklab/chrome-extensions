@@ -1,0 +1,10 @@
+{
+  "list_title": {
+    "message": "Enter the URL you want to block",
+    "description": "Tooltip for URL list input"
+  },
+  "apply_button_text": {
+    "message": "Apply",
+    "description": "Tooltip for apply button"
+  }
+}

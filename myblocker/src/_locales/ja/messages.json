@@ -1,0 +1,10 @@
+{
+  "list_title": {
+    "message": "ブロックしたいURLを入力してください。",
+    "description": "Tooltip for URL list input"
+  },
+  "apply_button_text": {
+    "message": "適用",
+    "description": "Tooltip for apply button"
+  }
+}

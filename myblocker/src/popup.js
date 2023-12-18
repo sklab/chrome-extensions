@@ -11,4 +11,5 @@ window.onload = function() {
 document.getElementById('apply').addEventListener('click', () => {
   let urlList = document.getElementById('url_list').value.split('\n');
   chrome.storage.local.set({urls: urlList});
+  window.close();
 });

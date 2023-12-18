@@ -13,16 +13,20 @@ const updateRules = async () => {
   let rules = [];
   let idCount = 0;
   for (const url of urls) {
+    // 空のURLを無視
     if (url.trim() === '') continue;
+    // コメント行を無視
+    if (url.trim().startsWith('//')) continue;
+
     idCount++;
-    console.log(idCount + ": " + url);
+
     // 新しいURLブロックルールを作成する
     const rule = {
       id: idCount,
       priority: idCount,
       action: { type: 'block' },
       condition: { urlFilter: url, resourceTypes: ['main_frame', 'image', 'media', 'object', 'other', 'script',
-      'sub_frame', 'webbundle', 'websocket', 'csp_report', 'xmlhttprequest'] }
+      'sub_frame', 'webbundle', 'websocket', 'ping', 'csp_report', 'xmlhttprequest'] }
     };
     rules.push(rule);
   }

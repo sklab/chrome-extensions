@@ -1,5 +1,5 @@
 html {
-  min-height: 10em;
+  min-height: 25em;
   min-width: 40em;
 }
 
@@ -31,18 +31,23 @@ hr {
 }
 
 #list_title {
+  margin: 1em 0.5em 0em 0em;
   font-size: 1.2em;
   text-align: left;  
 }
 
 .input-area {
-  margin: 1em 0.5em 0.5em 0em;
+  margin: 0em 0.5em 0.5em 0em;
   text-align: center;
 }
 
 #url_list {
   width: 100%;
   margin: 1em 0em;
+  background-color: #555;
+  color: #f3f3f3;
+  font-family: monospace;
+  font-size: 1.5em;
 }
 
 #apply {
@@ -51,8 +56,10 @@ hr {
     width: 100px;
     height: 40px;
     border-radius: 30px;
-    background-color: #251fd7;
+    background-color: #0078d4;
+    border: none;
     color: #f3f3f3;
     cursor: pointer;
     transition: background-color .4s;
-}
+    font-size: 1.5em;
+  }

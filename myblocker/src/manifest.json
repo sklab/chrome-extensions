@@ -3,7 +3,7 @@
   "name": "MyBlocker",
   "version": "1.0",
   "author": "sklab",
-  "description": "Custom URL blocker.",
+  "description": "Create your own URL blocker!",
   "icons": {
     "16": "icon/MyBlocker16.png",
     "32": "icon/MyBlocker32.png",
